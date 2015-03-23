@@ -1,0 +1,1 @@
+git@github.com:z-developer/thermacare_theme.git
