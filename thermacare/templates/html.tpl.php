@@ -2,7 +2,7 @@
 <head>
 <?php print $head; ?>
 <link href="themes/thermacare/css/thermacare.css" rel="stylesheet" type="text/css"/>
-
+ <!--A1-->
 <script type="text/javascript" src="themes/thermacare/js/jquery-1.11.2.min.js"></script>
 <script src="http://code.jquery.com/ui/1.10.3/jquery-ui.js"></script>
 <script type="text/javascript" src="themes/thermacare/js/jquery.mCustomScrollbar.concat.min.js"></script>
