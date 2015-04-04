@@ -196,7 +196,7 @@ print $output;
      </div>
     <div class="warningdiv">
 <?
-    $block = module_invoke('block','block_view','2');
+    $block = module_invoke('block','block_view','11');
     print render( $block['content'] );
 ?>
     </div>
