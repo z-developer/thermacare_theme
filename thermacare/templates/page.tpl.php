@@ -158,7 +158,7 @@
     <?php else : ?>
     
     <?
-        if( arg(0) == 'node' && in_array( arg(1), array(2,11)) )
+        if( arg(0) == 'node' && in_array( arg(1), array(36)) ) //2,11
         {
             include('page_product.tpl.php');
         }
