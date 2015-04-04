@@ -4,7 +4,7 @@
 
 <?php print $head; ?>
 <link href="<?=$themepath?>thermacare.css" rel="stylesheet" type="text/css"/>
- <!--A1-->
+ <!--A2-->
 <script type="text/javascript" src="<?=$themepath?>js/jquery-1.11.2.min.js"></script>
 <script src="http://code.jquery.com/ui/1.10.3/jquery-ui.js"></script>
 <script type="text/javascript" src="<?=$themepath?>js/jquery.mCustomScrollbar.concat.min.js"></script>
