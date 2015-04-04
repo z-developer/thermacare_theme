@@ -141,17 +141,17 @@
     <?php if ($is_front): ?>
 
     <? /* Short Link */
-        $block = module_invoke('block','block_view','4');
+        $block = module_invoke('block','block_view','21'); //4
         print render( $block['content'] );
     ?>
 
     <?  /* Slider */
-        $block = module_invoke('block','block_view','5');
+        $block = module_invoke('block','block_view','26'); //5
         print render( $block['content'] );
     ?> 
 
     <?  /* Konkurs */
-        $block = module_invoke('block','block_view','3');
+        $block = module_invoke('block','block_view','16'); //3
         print render($block['content']);
     ?>
     

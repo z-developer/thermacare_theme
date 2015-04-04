@@ -5,7 +5,7 @@
 <?php print $head; ?>
 <link href="<?=$themepath?>css/style.css" rel="stylesheet" type="text/css"/>
 
- <!--A4-->
+ <!--A5-->
 <script type="text/javascript" src="<?=$themepath?>js/jquery-1.11.2.min.js"></script>
 <!--
 <script src="http://code.jquery.com/ui/1.10.3/jquery-ui.js"></script>
