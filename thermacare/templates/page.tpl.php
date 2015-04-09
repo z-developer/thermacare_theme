@@ -179,6 +179,7 @@
         </div> 
         <? } ?>
     <?php endif; ?>
+    
    
 </div>
 <div class="footer">
@@ -200,4 +201,10 @@ print $output;
     print render( $block['content'] );
 ?>
     </div>
+    
+    <?  /* Soc Icons */
+        $block = module_invoke('block','block_view','31');
+        print render($block['content']);
+    ?>
+    
 </div>
