@@ -103,22 +103,27 @@
                 $sub_url = '/?q='.$sub_url;
 /*                
                 echo '<pre>';
-                print_r($subItem);
+                print_r($subItem['#href']);
                 echo '</pre>';
-                
-                switch( $subItem['#title'] )
+*/                
+                switch( $subItem['#href'] )
                 {
-                    case 1:{ break;}
-                    case 1:{ break;}
-                    case 1:{ break;}
-                    case 1:{ break;}
+                    case 'node/61':{ $sub_img ='pic5.png'; break;}
+                    case 'node/91':{ $sub_img ='pic7.png'; break;}
+                    case 'node/86':{ $sub_img ='pic6.png'; break;}
+                    case 'node/66':{ $sub_img ='pic8.png'; break;}
+                    
+                    case 'node/71':{ $sub_img ='pic11.png'; break;}
+                    case 'node/76':{ $sub_img ='pic10.png'; break;}
+                    case 'node/81':{ $sub_img ='pic9.png'; break;}
+                    default: { $sub_img = ''; }
                 }
-*/
+
                 if( $sub_title == '' ) continue;
                 
                 echo '
                 <li>
-                    <img src="images/pic5.png" width="121" height="85" alt=""/>
+                    <img src="/sites/g/files/g10021546/f/201504/'.$sub_img.'" width="121" height="85" alt=""/>
                     <p class="text">
                         <span>'.$sub_title.'</span>
                         '.$sub_desc.'
