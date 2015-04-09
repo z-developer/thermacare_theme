@@ -4,6 +4,15 @@ $(document).ready(function() {
     });
 
     if($('.helper .steps')) stepsClick();
+
+    $('.share-btn').on('click', function(e) {
+        e.preventDefault();
+        $('.popup').fadeIn();
+    });
+    $('.popup .close').on('click', function(e) {
+        e.preventDefault();
+        $('.popup').fadeOut();
+    });
 }).on('click', '.helper .steps li', function() {
     $('.helper .steps li').removeClass('active');
     $(this).addClass('active');
