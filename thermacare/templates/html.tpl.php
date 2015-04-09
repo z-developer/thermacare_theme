@@ -5,12 +5,12 @@
     $themepath = '/'.$directory.'/';
 ?>
 
-<?php $ver=A10; ?>
+<?php $ver='?a11'; ?>
 
 <?php print $head; ?>
 <link href="<?=$themepath?>css/style.css<?=$ver?>" rel="stylesheet" type="text/css"/>
 
- <!--A10-->
+ <!--A11-->
 <script type="text/javascript" src="<?=$themepath?>js/jquery-1.11.2.min.js<?=$ver?>"></script>
 <!--
 <script src="http://code.jquery.com/ui/1.10.3/jquery-ui.js"></script>
