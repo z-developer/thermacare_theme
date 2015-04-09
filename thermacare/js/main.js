@@ -13,6 +13,24 @@ $(document).ready(function() {
         e.preventDefault();
         $('.popup').fadeOut();
     });
+
+
+    $('.testForm').on('submit', function(e) {
+        e.preventDefault();
+        $('label', this).removeClass('active');
+        $('.result', this).hide();
+        var temp = false;
+
+        $('input[type="checkbox"]', this).each(function(){
+            if($(this).is(':checked')) {
+                $(this).closest('label').addClass('active');
+                temp = true;
+            }
+        });
+        if(temp) $('.result', this).fadeIn();
+        else alert('Ответьте на вопросы.');
+    });
+
 }).on('click', '.helper .steps li', function() {
     $('.helper .steps li').removeClass('active');
     $(this).addClass('active');
