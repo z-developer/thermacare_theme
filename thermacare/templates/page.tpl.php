@@ -109,9 +109,9 @@
                 switch( $subItem['#href'] )
                 {
                     case 'node/61':{ $sub_img ='pic5.png'; break;}
-                    case 'node/91':{ $sub_img ='pic7.png'; break;}
+                    case 'node/91':{ $sub_img ='pic8.png'; break;}
                     case 'node/86':{ $sub_img ='pic6.png'; break;}
-                    case 'node/66':{ $sub_img ='pic8.png'; break;}
+                    case 'node/66':{ $sub_img ='pic7.png'; break;}
                     
                     case 'node/71':{ $sub_img ='pic11.png'; break;}
                     case 'node/76':{ $sub_img ='pic10.png'; break;}
