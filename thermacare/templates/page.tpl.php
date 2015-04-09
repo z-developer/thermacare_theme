@@ -99,8 +99,21 @@
             {
                 $sub_title = @$subItem['#title'];
                 $sub_url = @$subItem['#href'];
+                $sub_desc = @$subItem['#localized_options']['attributes']['title'];
                 $sub_url = '/?q='.$sub_url;
-
+/*                
+                echo '<pre>';
+                print_r($subItem);
+                echo '</pre>';
+                
+                switch( $subItem['#title'] )
+                {
+                    case 1:{ break;}
+                    case 1:{ break;}
+                    case 1:{ break;}
+                    case 1:{ break;}
+                }
+*/
                 if( $sub_title == '' ) continue;
                 
                 echo '
@@ -108,7 +121,7 @@
                     <img src="images/pic5.png" width="121" height="85" alt=""/>
                     <p class="text">
                         <span>'.$sub_title.'</span>
-                        Например такой: Здесь будет краткий текст-характеристика.
+                        '.$sub_desc.'
                     </p>
                     <a href="'.$sub_url.'">подробнее</a>
                     <div class="clear"></div>
