@@ -69,13 +69,23 @@
     <div class="header">
         <a class="logo" href="/"><img src="<? print $logo; ?>" width="100%" height="100%" alt=""/></a>
         <img class="slogan" src="/<?=$directory?>/images/slogan.png" width="100%" height="100%" alt=""/>
-
-        <form class="search">
-            <input type="text" placeholder="поиск по сайту">
-            <a class="search-submit"></a>
-        </form>
+      
+        <form class="search" action="/" method="post" id="search-block-form" accept-charset="UTF-8">
+            <input type="text" placeholder="поиск по сайту" id="edit-search-block-form" name="search_block_form" />
+            <a id="search_button" class="search-submit" onclick="SearchGo();"></a>
+        </form>    
+    <script>
+        function SearchGo()
+        {
+            var str = document.getElementById("edit-search-block-form").value;
+            if( str.length < 3 )
+            {
+                return;
+            }
+            document.location.href = '/?q=search/node/'+str;
+        }
+    </script>
     </div>
-
 <?php 
     $main_menu_tree = menu_tree(variable_get('menu_main_links_source', 'main-menu'));
 ?>
@@ -156,6 +166,15 @@
 ?>   
 
 <div class="content">
+
+<?
+/*
+    echo '<pre>';
+    print_r($variables['page']['sidebar_first']['search_form']);
+    echo '</pre>';
+*/
+?>
+
     <?php if ($is_front): ?>
 
     <? /* Short Link */
