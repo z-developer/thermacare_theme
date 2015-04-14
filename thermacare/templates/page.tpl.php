@@ -71,10 +71,14 @@
         <img class="slogan" src="/<?=$directory?>/images/slogan.png" width="100%" height="100%" alt=""/>
       
         <form class="search" action="/" method="post" id="search-block-form" accept-charset="UTF-8">
-            <input type="text" placeholder="поиск по сайту" id="edit-search-block-form" name="search_block_form" />
+            <input type="text" placeholder="поиск по сайту" id="edit-search-block-form" name="search_block_form" value="<?=$_POST['search_block_form']?>" />
             <a id="search_button" class="search-submit" onclick="SearchGo();"></a>
         </form>    
     <script>
+        var formobj = document.getElementById("search-block-form");
+        formobj.addEventListener( "onsubmit", SearchGo() );
+        
+        
         function SearchGo()
         {
             var str = document.getElementById("edit-search-block-form").value;
