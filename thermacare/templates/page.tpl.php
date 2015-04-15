@@ -103,7 +103,15 @@
         $url = '/?q='.$url;
         $below = @$mItem['#below'];
         if( !$title ) { continue; }
-        echo '<li> <a class="'.($below?'sub':'').'" href="'.$url.'">'.$title.'</a>';
+        
+        if( $url!='/?q=node/10' ) //Share
+        {
+            echo '<li> <a class="'.($below?'sub':'').'" href="'.$url.'">'.$title.'</a>';
+        }
+        else
+        {
+            echo '<li> <a href="" class="share-btn">'.$title.'</a>';
+        }
         
         if ( $below )
         {
