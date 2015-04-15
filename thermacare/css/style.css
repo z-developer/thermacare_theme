@@ -139,7 +139,7 @@ body {
     background: none;
 }
 .main-nav li a.sub {
-    padding-right: 40px;
+    padding-right: 39px;
     background: url("../images/main-nav-arrow.png") center right no-repeat;
 }
 .main-nav li a.sub:hover {
