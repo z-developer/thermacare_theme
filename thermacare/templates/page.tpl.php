@@ -104,7 +104,7 @@
         $below = @$mItem['#below'];
         if( !$title ) { continue; }
         
-        if( $url!='/?q=node/10' ) //Share
+        if( $title != 'Поделиться' ) //Share
         {
             echo '<li> <a class="'.($below?'sub':'').'" href="'.$url.'">'.$title.'</a>';
         }
