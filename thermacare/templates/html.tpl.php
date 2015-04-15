@@ -5,12 +5,16 @@
     $themepath = '/'.$directory.'/';
 ?>
 
-<?php $ver='?a17'; ?>
+<?php $ver='?a18'; ?>
 
 <?php print $head; ?>
 <link href="<?=$themepath?>css/style.css<?=$ver?>" rel="stylesheet" type="text/css"/>
+<style>
+    #search-form { display: none;}
+    .content > h2 { display: none;}
+</style>
 
- <!--A17-->
+ <!--A18-->
 <script type="text/javascript" src="<?=$themepath?>js/jquery-1.11.2.min.js<?=$ver?>"></script>
 <!--
 <script src="http://code.jquery.com/ui/1.10.3/jquery-ui.js"></script>
