@@ -145,9 +145,9 @@
                 
                 echo '
                 <li>
-                    <img src="/sites/g/files/g10021546/f/201504/'.$sub_img.'" width="121" height="85" alt=""/>
+                    <a href="'.$sub_url.'"><img src="/sites/g/files/g10021546/f/201504/'.$sub_img.'" width="121" height="85" alt=""/></a>
                     <p class="text">
-                        <span>'.$sub_title.'</span>
+                        <a href="'.$sub_url.'"><span>'.$sub_title.'</span></a>
                         '.$sub_desc.'
                     </p>
                     <a href="'.$sub_url.'">подробнее</a>

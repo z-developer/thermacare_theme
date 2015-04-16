@@ -149,14 +149,14 @@ body {
     left:10px;
 }
 .sub-nav {
-    width:670px;
+    width:675px;
     min-height: 120px;
     position: absolute;
     z-index: 3;
     background: #ffffff;
     top:42px;
     left:10px;
-    padding: 20px 0;
+    padding: 34px 0 20px 0;
     display: none;
 
     border-bottom-left-radius:10px;
@@ -183,6 +183,9 @@ body {
     box-sizing: border-box;
     padding: 5px 10px;
     background: none;
+	float:none;
+	display:inline-block;
+	margin-top: -14px;
 }
 .sub-nav li:nth-child(odd) {
     border-right:solid 1px #e7e8e8;
