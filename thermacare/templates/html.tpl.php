@@ -5,16 +5,17 @@
     $themepath = '/'.$directory.'/';
 ?>
 
-<?php $ver='?a33'; ?>
+<?php $ver='?a34'; ?>
 
 <?php print $head; ?>
 <link href="<?=$themepath?>css/style.css<?=$ver?>" rel="stylesheet" type="text/css"/>
+<link href="<?=$themepath?>css/jquery.mCustomScrollbar.css<?=$ver?>" rel="stylesheet" type="text/css"/>
 <style>
     #search-form { display: none;}
     .content > h2 { display: none;}
 </style>
 
- <!--A33-->
+ <!--A34-->
 <script type="text/javascript" src="<?=$themepath?>js/jquery-1.11.2.min.js<?=$ver?>"></script>
 <script type="text/javascript" src="<?=$themepath?>js/jquery.mCustomScrollbar.concat.min.js<?=$ver?>"></script>
 <script src="<?=$themepath?>js/jquery.tools.min.js<?=$ver?>"></script>

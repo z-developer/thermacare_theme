@@ -181,7 +181,7 @@ body {
 .sub-nav li a { text-decoration: none; }
 .sub-nav li {
     width:335px;
-    min-height:120px;
+    height:144px;
     box-sizing: border-box;
     padding: 5px 10px;
     background: none;
@@ -294,6 +294,10 @@ body {
 }
 
 .ads { padding: 0 15px; }
+.ads .col-full .text i {
+    font-style: normal;
+    font-size: 11px;
+}
 .ads .col {
     width:286px;
     height: 130px;
