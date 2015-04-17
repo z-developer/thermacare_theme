@@ -139,10 +139,12 @@
                     case 'node/91':{ $sub_img ='pic8.png'; break;}
                     case 'node/86':{ $sub_img ='pic6.png'; break;}
                     case 'node/66':{ $sub_img ='pic7.png'; break;}
+                    case 'node/76':{ $sub_img ='pic10.png'; break;}
                     
-                    case 'node/41':{ $sub_img ='pic11.png'; break;}
-                    case 'node/166':{ $sub_img ='pic10.png'; break;}
-                    case 'node/81':{ $sub_img ='pic9.png'; break;}
+                    case 'node/41':{ $sub_img ='test.png'; break;}
+                    case 'node/166':{ $sub_img ='fizicheskiy.png'; break;}
+                    case 'node/81':{ $sub_img ='komplex.png'; break;}
+                    
                     default: { $sub_img = ''; }
                 }
 
