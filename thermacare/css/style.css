@@ -2,6 +2,7 @@
 /* CSS Document */
 ul { padding: 0; margin: 0; list-style: none; }
 .clear { clear:both; }
+img { border: none; }
 body {
     margin:0;
     padding: 0;
@@ -184,8 +185,6 @@ body {
     box-sizing: border-box;
     padding: 5px 10px;
     background: none;
-	float:none;
-	display:inline-block;
 	margin-top: -14px;
 }
 .sub-nav li:nth-child(odd) {
@@ -646,7 +645,7 @@ body {
     background: url("../images/stepBg-1.png") no-repeat left top;
 }
 .helper .info-2 {
-    background: url("../images/stepBg-2.png") no-repeat left top;
+    background: url("../images/stepBg-3.png") no-repeat left top;
 }
 .helper .info-3 {
     position: relative;;
