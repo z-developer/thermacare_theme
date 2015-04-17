@@ -5,7 +5,7 @@
     $themepath = '/'.$directory.'/';
 ?>
 
-<?php $ver='?a24'; ?>
+<?php $ver='?a25'; ?>
 
 <?php print $head; ?>
 <link href="<?=$themepath?>css/style.css<?=$ver?>" rel="stylesheet" type="text/css"/>
@@ -14,7 +14,7 @@
     .content > h2 { display: none;}
 </style>
 
- <!--A24-->
+ <!--A25-->
 <script type="text/javascript" src="<?=$themepath?>js/jquery-1.11.2.min.js<?=$ver?>"></script>
 <!--
 <script src="http://code.jquery.com/ui/1.10.3/jquery-ui.js"></script>

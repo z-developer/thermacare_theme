@@ -106,11 +106,11 @@
         
         if( $title != 'Поделиться' ) //Share
         {
-            echo '<li> <a class="'.($below?'sub':'').'" href="'.$url.'">'.$title.'</a>';
+            echo '<li> <a class="main-nav-a '.($below?'sub':'').'" href="'.$url.'">'.$title.'</a>';
         }
         else
         {
-            echo '<li> <a href="" class="share-btn">'.$title.'</a>';
+            echo '<li> <a href="" class="main-nav-a share-btn">'.$title.'</a>';
         }
         
         if ( $below )
