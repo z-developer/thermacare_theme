@@ -3,6 +3,7 @@
 ul { padding: 0; margin: 0; list-style: none; }
 .clear { clear:both; }
 img { border: none; }
+label { font-weight: normal; }
 body {
     margin:0;
     padding: 0;
@@ -857,11 +858,11 @@ body {
     -o-border-radius: 10px;
 }
 
-input[type='checkbox'] {
+input[type='radio'] {
     display:none;
 }
-input[type='checkbox'] + .checkbox { outline: none; box-sizing: border-box; width:11px; height: 11px; display: inline-block; margin: -3px 8px 0 0; vertical-align: middle; background: url("../images/checkbox.png") no-repeat; }
-input[type='checkbox']:checked + .checkbox { background-position: -11px 0; }
+input[type='radio'] + .checkbox { outline: none; box-sizing: border-box; width:11px; height: 11px; display: inline-block; margin: -3px 8px 0 0; vertical-align: middle; background: url("../images/checkbox.png") no-repeat; }
+input[type='radio']:checked + .checkbox { background-position: -11px 0; }
 
 .content .page-content .stores {
     color:#242424;
@@ -1114,3 +1115,5 @@ input[type='checkbox']:checked + .checkbox { background-position: -11px 0; }
 .t-yellow.active { color:#ffc822; }
 .t-red.active { color:#ff1d1d; }
 .result { display: none; }
+.stores { display: none; }
+.stores.store-12 { display: block; }

@@ -21,14 +21,14 @@ $(document).ready(function() {
         $('.result', this).hide();
         var temp = false;
 
-        $('input[type="checkbox"]', this).each(function(){
+        $('input[type="radio"]', this).each(function(){
             if($(this).is(':checked')) {
                 $(this).closest('label').addClass('active');
                 temp = true;
             }
         });
         if(temp) $('.result', this).fadeIn();
-        else alert('Ответьте на вопросы.');
+        //else alert('Вы не ответили на все вопросы теста.');
     });
 
 }).on('click', '.helper .steps li', function() {
@@ -51,6 +51,11 @@ $(document).ready(function() {
         paddingTop: '15px',
         paddingBottom: '15px'
     }, 500);
+}).on('change', '.select-city select', function() {
+    var num = $(this).val();
+    $('.stores').fadeOut(function() {
+        $('.stores.store-' + num).fadeIn();
+    });
 });
 
 function stepsClick() {
