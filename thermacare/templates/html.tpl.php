@@ -16,10 +16,6 @@
 
  <!--A31-->
 <script type="text/javascript" src="<?=$themepath?>js/jquery-1.11.2.min.js<?=$ver?>"></script>
-<script src="http://api-maps.yandex.ru/2.1/?lang=ru_RU" type="text/javascript"></script>
-<!--
-<script src="http://code.jquery.com/ui/1.10.3/jquery-ui.js"></script>
--->
 <script type="text/javascript" src="<?=$themepath?>js/jquery.mCustomScrollbar.concat.min.js<?=$ver?>"></script>
 <script src="<?=$themepath?>js/jquery.tools.min.js<?=$ver?>"></script>
 <script src="<?=$themepath?>js/main.js<?=$ver?>"></script>
