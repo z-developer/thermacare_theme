@@ -204,7 +204,7 @@ body {
     display: block;
     margin: 0 0 5px 0;
 }
-.sub-nav li a {
+.sub-nav li a.more-btn {
     color:#e41837;
     font-size: 12px;
     line-height: 12px;
@@ -320,7 +320,7 @@ body {
 
 }
 .ads .col:nth-child(2) {
-    margin:0 29px;
+    margin:0 29px 20px 29px;
 }
 .ads span {
     width:128px;
@@ -523,7 +523,7 @@ body {
     z-index: 1;
     font-size: 12px;
     color: #212121;
-    text-align: left;
+    text-align: justify;
 
     border-radius:10px;
     -webkit-border-radius:10px;
@@ -645,7 +645,7 @@ body {
     background: url("../images/stepBg-1.png") no-repeat left top;
 }
 .helper .info-2 {
-    background: url("../images/stepBg.png") no-repeat left top;
+    background: url("../images/stepBg-2.png") no-repeat left top;
 }
 .helper .info-3 {
     position: relative;;
@@ -654,8 +654,8 @@ body {
 .helper .play { position:absolute; display: block; width: 92px; height: 92px; left: 240px; top: 95px; }
 .helper .step-pic {
     position: absolute;
-    top: 155px;
-    left: 310px;
+    top: 226px;
+    left: 518px;
 }
 .helper .info-box {
     position: absolute;
@@ -692,7 +692,9 @@ body {
     color:#ffffff;
     text-transform: uppercase;
     text-decoration: none;
-    float:right;
+    left: 215px;
+    top: 210px;
+    position: absolute;
 
     border-radius:10px;
     -webkit-border-radius:10px;

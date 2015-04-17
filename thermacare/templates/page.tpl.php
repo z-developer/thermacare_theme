@@ -150,7 +150,7 @@
                         <a href="'.$sub_url.'"><span>'.$sub_title.'</span></a>
                         '.$sub_desc.'
                     </p>
-                    <a href="'.$sub_url.'">подробнее</a>
+                    <a class="more-btn" href="'.$sub_url.'">подробнее</a>
                     <div class="clear"></div>
                 </li>
                 ';
