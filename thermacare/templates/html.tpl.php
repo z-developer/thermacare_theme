@@ -5,7 +5,7 @@
     $themepath = '/'.$directory.'/';
 ?>
 
-<?php $ver='?a26'; ?>
+<?php $ver='?a27'; ?>
 
 <?php print $head; ?>
 <link href="<?=$themepath?>css/style.css<?=$ver?>" rel="stylesheet" type="text/css"/>
@@ -14,7 +14,7 @@
     .content > h2 { display: none;}
 </style>
 
- <!--A26-->
+ <!--A27-->
 <script type="text/javascript" src="<?=$themepath?>js/jquery-1.11.2.min.js<?=$ver?>"></script>
 <script src="http://api-maps.yandex.ru/2.1/?lang=ru_RU" type="text/javascript"></script>
 <!--

@@ -177,6 +177,7 @@ body {
     -ms-box-shadow: 0 0 8px 0 rgba(0,0,0,0.22);
     -o-box-shadow: 0 0 8px 0 rgba(0,0,0,0.22);
 }
+.sub-nav li a { text-decoration: none; }
 .sub-nav li {
     width:335px;
     min-height:120px;
