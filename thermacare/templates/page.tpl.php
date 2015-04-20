@@ -101,9 +101,16 @@
         $title = @$mItem['#title'];
         $url = @$mItem['#href'];
         
+        $alias = drupal_get_path_alias( $url );
+
         if( strpos( $url, 'node' ) !== false )
         {
             $url = '/?q='.$url;
+        }
+        
+        if ( $alias != '' )
+        {
+            $url = '/'.$alias;
         }
         
         $below = @$mItem['#below'];
