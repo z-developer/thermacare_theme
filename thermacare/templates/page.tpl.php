@@ -95,12 +95,17 @@
 ?>
 
 <ul class="main-nav">
-<?    
+<?
     foreach( $main_menu_tree as $mItem )
     {        
         $title = @$mItem['#title'];
         $url = @$mItem['#href'];
-        $url = '/?q='.$url;
+        
+        if( strpos( $url, 'node' ) !== false )
+        {
+            $url = '/?q='.$url;
+        }
+        
         $below = @$mItem['#below'];
         if( !$title ) { continue; }
         
