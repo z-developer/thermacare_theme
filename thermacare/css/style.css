@@ -650,7 +650,7 @@ body {
     background: url("../images/stepBg-1.png") no-repeat left top;
 }
 .helper .info-2 {
-    background: url("../images/stepBg-3.png") no-repeat left top;
+    background: url("../images/stepBg-4.png") no-repeat left top;
 }
 .helper .info-3 {
     position: relative;;
@@ -659,7 +659,7 @@ body {
 .helper .play { position:absolute; display: block; width: 92px; height: 92px; left: 240px; top: 95px; }
 .helper .step-pic {
     position: absolute;
-    top: 226px;
+    top: 217px;
     left: 518px;
 }
 .helper .info-box {
@@ -697,8 +697,8 @@ body {
     color:#ffffff;
     text-transform: uppercase;
     text-decoration: none;
-    left: 215px;
-    top: 210px;
+    right: 0px;
+    top: 215px;
     position: absolute;
 
     border-radius:10px;
@@ -840,6 +840,7 @@ body {
 .content .page-content .test label {
     display: block;
     margin: 0 0 5px 0;
+    font-weight: normal;
 }
 .content .page-content .submit {
     height:34px;
@@ -1117,3 +1118,5 @@ input[type='radio']:checked + .checkbox { background-position: -11px 0; }
 .result { display: none; }
 .stores { display: none; }
 .stores.store-12 { display: block; }
+․stores.store-main { display: block !important; }
+.snoska { font-size: 10px; font-style: italic; vertical-align: top; }
