@@ -134,7 +134,7 @@
                 $sub_title = @$subItem['#title'];
                 $sub_url = @$subItem['#href'];
                 $sub_desc = @$subItem['#localized_options']['attributes']['title'];
-                $sub_url = '/?q='.$sub_url;
+                
 /*                
                 echo '<pre>';
                 print_r($subItem['#href']);
@@ -158,6 +158,13 @@
                     case 'node/81':{ $sub_img ='komplex.png'; break;}
                     
                     default: { $sub_img = ''; }
+                }
+                
+                $alias_sub = drupal_get_path_alias( $sub_url );
+                $sub_url = '/?q='.$sub_url;
+                if ( $alias_sub != '' )
+                {
+                    $sub_url = '/'.$alias_sub;
                 }
 
                 if( $sub_title == '' ) continue;
