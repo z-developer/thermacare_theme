@@ -5,7 +5,7 @@
     $themepath = '/'.$directory.'/';
 ?>
 
-<?php $ver='?a41'; ?>
+<?php $ver='?a42'; ?>
 
 <?php print $head; ?>
 <link href="<?=$themepath?>css/style.css<?=$ver?>" rel="stylesheet" type="text/css"/>
@@ -15,13 +15,13 @@
     .content > h2 { display: none;}
 </style>
 
- <!--A41-->
+ <!--A42-->
 <script type="text/javascript" src="<?=$themepath?>js/jquery-1.11.2.min.js<?=$ver?>"></script>
 <script type="text/javascript" src="<?=$themepath?>js/jquery.mCustomScrollbar.concat.min.js<?=$ver?>"></script>
 <script src="<?=$themepath?>js/jquery.tools.min.js<?=$ver?>"></script>
 <script src="<?=$themepath?>js/main.js<?=$ver?>"></script>
 
-<title><?php print $head_title; ?></title>
+<title><?php print $is_front ? 'ТермаКэр | Аппликаторы разогревающие для спины, для шеи, плеча и запястья' : $head_title; ?></title>
 <?php print $styles; ?>
 <?php print $scripts; ?>
 <!--[if lt IE 9]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
