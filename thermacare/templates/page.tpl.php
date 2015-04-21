@@ -244,17 +244,21 @@
         <div class="page-title"><?= isset($node) ? $node->title:'' ?></div>
         <div class="page-content">
             <?php /*print isset($node) ? $node->body['und'][0]['value'] : ''; */?>
+            
             <?php print render($page['content']); ?>
         </div>
         <div class="ads toRight">
         <?
+            $cont = render($page['content']);
+            $banner1 = strpos($cont, '#banner1');
+            
             $block = module_invoke('block','block_view','6');
             print render($block['content']);
         ?>
         </div> 
         <? } ?>
     <?php endif; ?>
-    
+ 
    
 </div>
 <div class="footer">
