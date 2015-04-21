@@ -26,11 +26,14 @@ $(document).ready(function() {
                 $(this).closest('label').addClass('active');
                 temp = true;
             }
+            else {
+                temp = false;
+                return false;
+            }
         });
         if(temp) $('.result', this).fadeIn();
-        //else alert('Вы не ответили на все вопросы теста.');
+        else alert('Вы не ответили на все вопросы теста.');
     });
-
 }).on('click', '.helper .steps li', function() {
     $('.helper .steps li').removeClass('active');
     $(this).addClass('active');
