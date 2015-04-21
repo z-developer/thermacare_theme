@@ -249,10 +249,20 @@
         </div>
         <div class="ads toRight">
         <?
+            $bannerArr = array(0, 6, 36, 41, 46);
             $cont = render($page['content']);
-            $banner1 = strpos($cont, '#banner1');
+            $BannerPos = strpos($cont, '#banner');
+            if( $BannerPos !== false )
+            {
+                $bannerNum = substr($cont, $BannerPos+7, 1);
+                $bannerID = $bannerArr[$bannerNum];
+            }
+            else
+            {
+                $bannerID = 6;
+            }
             
-            $block = module_invoke('block','block_view','6');
+            $block = module_invoke('block','block_view',$bannerID);
             print render($block['content']);
         ?>
         </div> 
