@@ -249,7 +249,7 @@
         </div>
         <div class="ads toRight">
         <?
-            $bannerArr = array(0, 6, 36, 41, 46);
+            $bannerArr = array(0, 6, 36, 41, 46, 51, 56, 61, 66);
             $cont = render($page['content']);
             $BannerPos = strpos($cont, '#banner');
             if( $BannerPos !== false )
