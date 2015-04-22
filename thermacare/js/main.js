@@ -14,6 +14,10 @@ $(document).ready(function() {
         $('.popup').fadeOut();
     });
 
+    $('.main-nav .sub').on('click', function(e) {
+        e.preventDefault();
+        $(this).show();
+    });
 
     $('.testForm').on('submit', function(e) {
         e.preventDefault();
