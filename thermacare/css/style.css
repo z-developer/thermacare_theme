@@ -649,14 +649,14 @@ body {
     padding: 5px 0;
 }
 .helper .info-1 {
-    background: url("../images/stepBgMain-1.png") no-repeat left top;
+    background: url("../images/stepBgMain-1-1.png") no-repeat left top;
 }
 .helper .info-2 {
-    background: url("../images/stepBgMain-2.png") no-repeat left top;
+    background: url("../images/stepBgMain-2-1.png") no-repeat left top;
 }
 .helper .info-3 {
     position: relative;;
-    background: url("../images/stepBgMain-3.png") no-repeat left top;
+    background: url("../images/stepBgMain-3-1.png") no-repeat left top;
 }
 .helper .play { position:absolute; display: block; width: 92px; height: 92px; left: 240px; top: 95px; }
 .helper .step-pic {
