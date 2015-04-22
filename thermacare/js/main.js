@@ -1,4 +1,5 @@
 $(document).ready(function() {
+    var clicked = '';
     $('.content .page-content .select-button').on('click', function() {
         $('.content .page-content .select-city').trigger('click');
     });
@@ -14,11 +15,23 @@ $(document).ready(function() {
         $('.popup').fadeOut();
     });
 
-    $('.main-nav .sub').on('click', function(e) {
+   /* $('.main-nav .sub').on('click', function(e) {
         e.preventDefault();
         $(this).show();
     });
+*/
+    $('.main-nav .sub').on('touchstart', function(e){
+        e.preventDefault();
+        $('.main-nav ul').hide();
+        $(this).parent().find('ul').show();
 
+        if(clicked == $(this).attr('href')) {
+            location.href = $(this).attr('href');
+        }
+        else {
+            clicked = $(this).attr('href');
+        }
+    });
     $('.testForm').on('submit', function(e) {
         e.preventDefault();
         $('label', this).removeClass('active');
