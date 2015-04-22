@@ -649,14 +649,14 @@ body {
     padding: 5px 0;
 }
 .helper .info-1 {
-    background: url("../images/stepBg-1.png") no-repeat left top;
+    background: url("../images/stepBgMain-1.png") no-repeat left top;
 }
 .helper .info-2 {
-    background: url("../images/stepBg-5.png") no-repeat left top;
+    background: url("../images/stepBgMain-2.png") no-repeat left top;
 }
 .helper .info-3 {
     position: relative;;
-    background: url("../images/video.png") no-repeat left top;
+    background: url("../images/stepBgMain-3.png") no-repeat left top;
 }
 .helper .play { position:absolute; display: block; width: 92px; height: 92px; left: 240px; top: 95px; }
 .helper .step-pic {
@@ -938,7 +938,7 @@ input[type='radio']:checked + .checkbox { background-position: -11px 0; }
 .products .col {
     width:50%;
     box-sizing: border-box;
-    padding: 35px 45px;
+    padding: 35px 45px 10px 45px;
     float: left;
 }
 .products .main-image {

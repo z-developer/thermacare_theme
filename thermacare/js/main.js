@@ -36,19 +36,19 @@ $(document).ready(function() {
         e.preventDefault();
         $('label', this).removeClass('active');
         $('.result', this).hide();
-        var temp = false;
+        var temp = 0;
 
-        $('input[type="radio"]', this).each(function(){
-            if($(this).is(':checked')) {
-                $(this).closest('label').addClass('active');
-                temp = true;
-            }
-            else {
-                temp = false;
-                return false;
-            }
+        $('input[type="radio"]', this).each(function(i){
+            if($(this).is(':checked')) temp ++;
         });
-        if(temp) $('.result', this).fadeIn();
+        if(temp == 9) {
+            $('input[type="radio"]', this).each(function(){
+                if($(this).is(':checked')) {
+                    $(this).closest('label').addClass('active');
+                }
+            });
+            $('.result', this).fadeIn();
+        }
         else alert('Вы не ответили на все вопросы теста.');
     });
 }).on('click', '.helper .steps li', function() {
