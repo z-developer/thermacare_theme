@@ -1,5 +1,7 @@
 $(document).ready(function() {
-    $('#search-form').closest('ul').empty().append('<li>Text here</li>');
+    var obj = $('#search-form').nextAll();
+    obj.empty().append("<h1>По вашему запросу ничего не найдено.</h1><ul><li>Проверьте правописание. Все ли верно указано в вашем запросе?</li><li>Попробуйте использовать синонимы. Возможно то, что вы ищете, записано иначе.</li><li>Попробуйте изменить условия поиска, вводя более обобщенные понятия.</li></ul>");
+
 
     var clicked = '';
     $('.content .page-content .select-button').on('click', function() {
