@@ -1,4 +1,6 @@
 $(document).ready(function() {
+    $('#search-form').closest('ul').empty().append('<li>Text here</li>');
+
     var clicked = '';
     $('.content .page-content .select-button').on('click', function() {
         $('.content .page-content .select-city').trigger('click');

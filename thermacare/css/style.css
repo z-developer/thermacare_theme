@@ -868,15 +868,15 @@ input[type='radio'] {
 input[type='radio'] + .checkbox { outline: none; box-sizing: border-box; width:11px; height: 11px; display: inline-block; margin: -3px 8px 0 0; vertical-align: middle; background: url("../images/checkbox.png") no-repeat; }
 input[type='radio']:checked + .checkbox { background-position: -11px 0; }
 
-.content .page-content .stores {
+.content .page-content .stores, .content .page-content .store-main{
     color:#242424;
     font-weight: bold;
     width:100%;
 }
-.content .page-content .stores .row {
+.content .page-content .stores .row, .content .page-content .store-main .row {
     margin: 0;
 }
-.content .page-content .stores .col {
+.content .page-content .stores .col, .content .page-content .store-main .col {
     width:50%;
     margin: 0;
     height:39px;

@@ -5,7 +5,7 @@
     $themepath = '/'.$directory.'/';
 ?>
 
-<?php $ver='?a50'; ?>
+<?php $ver='?a51'; ?>
 
 <?php print $head; ?>
 <link href="<?=$themepath?>css/style.css<?=$ver?>" rel="stylesheet" type="text/css"/>
@@ -16,7 +16,7 @@
     .field-name-field-banner { display: none; }
 </style>
 
- <!--A50-->
+ <!--A51-->
 <script type="text/javascript" src="<?=$themepath?>js/jquery-1.11.2.min.js<?=$ver?>"></script>
 <script type="text/javascript" src="<?=$themepath?>js/jquery.mCustomScrollbar.concat.min.js<?=$ver?>"></script>
 <script src="<?=$themepath?>js/jquery.tools.min.js<?=$ver?>"></script>
