@@ -1091,8 +1091,9 @@ input[type='radio']:checked + .checkbox { background-position: -11px 0; }
     .footer .col { display: block; margin-bottom: 15px; width: 290px; border-top: solid 1px #e28390; padding-top: 15px; border-left: none; }
     .footer .col:first-child { border-top: none; padding-top: 0px; }
     .ads.toRight .col { width:286px;  }
-    .ads .col { width:699px; margin: 0 0 23px 0; }
+    .ads .col { width:290px; margin: 0 0 23px 0; }
     .ads .col:nth-child(2) { margin: 0 0 15px 0; }
+
     .warningdiv img { width:287px; height:54px; }
     .ads .col-full { height:290px; overflow: hidden; }
     .ads .col-full img { height: auto; }
@@ -1120,16 +1121,32 @@ input[type='radio']:checked + .checkbox { background-position: -11px 0; }
     .helper .info-box a { left:70px; top:245px; }
     .helper .info-box .text { margin: 15px 0 0 20px; }
     .helper .info ul { margin: 15px 0 0 55px; width: 180px; }
+    .helper.products { height: 1200px; }
     .sub-nav { width: 270px; }
     .sub-nav li { border: none !important; width: 270px; }
-    .tabs { width:703px; }
+    .tabs { width:290px; }
     .tabs li a { padding: 0 20px; }
-    .tabs .current { padding: 0 35px; }
-    .tabs li { font-size: 12px; }
-    .scr-cnt { width: 685px; }
-    .white-shape { width: 691px; }
-    .ads span { width: 510px; top: 55px; }
-    .ads.toRight span { width: 128px; top: 36px; }
+    .tabs .current {   height: 51px; line-height: 51px; margin-top: 0; }
+    .tabs li {  width: 100%; text-align: center; }
+    .tabs li:first-child a {
+        border-top-left-radius: 0;
+        -webkit-border-top-left-radius: 0;
+        -moz-border-top-left-radius: 0;
+        -ms-border-top-left-radius: 0;
+        -o-border-top-left-radius: 0;
+    }
+    .tabs li:last-child a {
+        border-top-right-radius: 0;
+        -webkit-border-top-right-radius: 0;
+        -moz-border-top-right-radius: 0;
+        -ms-border-top-right-radius: 0;
+        -o-border-top-right-radius: 0;
+    }
+
+
+    .scr-cnt { width: 275px; padding: 15px 0 0 0; }
+    .white-shape { display: none; }
+    .ads span { width: 140px; top: 35px; }
     .content .page-content .col, .content .page-content .stores .col{ float:none; width:100%; }
     .content .page-content .test { margin: 40px 0 0 15px; }
 
