@@ -50,7 +50,7 @@ $(document).ready(function() {
         }
         else {
             mopen = 0;
-            $('.mobile-nav-btn').parent().find('.main-nav').show();
+            $('.mobile-nav-btn').parent().find('.main-nav').hide();
         }
     });
     $('.testForm').on('submit', function(e) {
