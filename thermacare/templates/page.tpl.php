@@ -93,7 +93,8 @@
 <?php 
     $main_menu_tree = menu_tree(variable_get('menu_main_links_source', 'main-menu'));
 ?>
-
+<div class="mobile-nav">
+<div class="mobile-nav-btn">Меню</div>
 <ul class="main-nav">
 <?
     foreach( $main_menu_tree as $mItem )
@@ -186,22 +187,7 @@
     }
 ?>
 </ul>
-    
-<?php 
-/*
-  if ($main_menu):
-    print theme(
-      'links__system_main_menu', 
-      array(
-        'links' => $main_menu, 
-        'attributes' => array(
-          'class' => array('main-nav')
-        )
-      )
-    );
-    endif;
-*/
-?>   
+</div>  
 
 <div class="content">
 

@@ -42,6 +42,10 @@ $(document).ready(function() {
             clicked = $(this).attr('href');
         }
     });
+    $('.mobile-nav-btn').on('click touchstart', function(e){
+        e.preventDefault();
+        $(this).closest('.main-nav').show();
+    });
     $('.testForm').on('submit', function(e) {
         e.preventDefault();
         $('label', this).removeClass('active');

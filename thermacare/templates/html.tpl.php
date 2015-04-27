@@ -5,18 +5,15 @@
     $themepath = '/'.$directory.'/';
 ?>
 
-<?php $ver='?a59'; ?>
+<?php $ver='?a60'; ?>
 
 <?php print $head; ?>
+<meta name="viewport" content="width=360, initial-scale=1">
 <link href="<?=$themepath?>css/style.css<?=$ver?>" rel="stylesheet" type="text/css"/>
 <link href="<?=$themepath?>css/jquery.mCustomScrollbar.css<?=$ver?>" rel="stylesheet" type="text/css"/>
-<style>
-    #search-form { display: none;}
-    .content > h2 { display: none;}
-    .field-name-field-banner { display: none; }
-</style>
 
- <!--A59-->
+
+ <!--A60-->
 <script type="text/javascript" src="<?=$themepath?>js/jquery-1.11.2.min.js<?=$ver?>"></script>
 <script type="text/javascript" src="<?=$themepath?>js/jquery.mCustomScrollbar.concat.min.js<?=$ver?>"></script>
 <script src="<?=$themepath?>js/jquery.tools.min.js<?=$ver?>"></script>
