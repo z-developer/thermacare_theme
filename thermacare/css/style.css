@@ -12,6 +12,7 @@ body {
     font-size: 14px;
     color:#000000;
 }
+.mobile-nav-btn { display:none; }
 .container {
     width:960px;
     background: #ffffff;
@@ -1188,7 +1189,7 @@ input[type='radio']:checked + .checkbox { background-position: -11px 0; }
     .main-nav li, .main-nav li:last-child {
         background: #ffffff;
     }
-    .mobile-nav:focus .main-nav {
+    .mobile-nav {
         border-radius: 10px;
         -webkit-border-radius: 10px;
         -moz-border-radius: 10px;
@@ -1204,6 +1205,7 @@ input[type='radio']:checked + .checkbox { background-position: -11px 0; }
         z-index: 4;
         margin: -15px 15px 0 15px;
         overflow: hidden;
+        background: #ffffff;
     }
     .mobile-nav-btn {
         width: 100%;
@@ -1215,6 +1217,7 @@ input[type='radio']:checked + .checkbox { background-position: -11px 0; }
         box-sizing: border-box;
         color: #A1A1A1;
         text-decoration: none;
+        cursor: pointer;
     }
 
     .sub-nav { width: 270px; position: relative;

@@ -44,7 +44,7 @@ $(document).ready(function() {
     });
     $('.mobile-nav-btn').on('click touchstart', function(e){
         e.preventDefault();
-        $(this).closest('.main-nav').show();
+        $('.mobile-nav-btn').parent().find('.main-nav').show();
     });
     $('.testForm').on('submit', function(e) {
         e.preventDefault();
