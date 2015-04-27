@@ -1179,6 +1179,10 @@ input[type='radio']:checked + .checkbox { background-position: -11px 0; }
         -moz-box-shadow: none;
         -ms-box-shadow: none;
         -o-box-shadow: none;
+        position: relative;
+        height: auto;
+        padding: 0;
+        margin: 0;
     }
     .main-nav li {
         float: none;
@@ -1221,7 +1225,7 @@ input[type='radio']:checked + .checkbox { background-position: -11px 0; }
     }
 
     .sub-nav { width: 270px; position: relative;
-        left: 0;
+        left: 0 !important;
         top: 0;
         width: 290px;
         padding: 0;

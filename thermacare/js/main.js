@@ -10,6 +10,7 @@ $(document).ready(function() {
     }
 
     var clicked = '';
+    var mopen = 0;
     $('.content .page-content .select-button').on('click', function() {
         $('.content .page-content .select-city').trigger('click');
     });
@@ -43,8 +44,14 @@ $(document).ready(function() {
         }
     });
     $('.mobile-nav-btn').on('click touchstart', function(e){
-        e.preventDefault();
-        $('.mobile-nav-btn').parent().find('.main-nav').show();
+        if(mopen == 0) {
+            mopen = 1;
+            $('.mobile-nav-btn').parent().find('.main-nav').show();
+        }
+        else {
+            mopen = 0;
+            $('.mobile-nav-btn').parent().find('.main-nav').show();
+        }
     });
     $('.testForm').on('submit', function(e) {
         e.preventDefault();
