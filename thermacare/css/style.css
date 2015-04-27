@@ -1084,7 +1084,7 @@ input[type='radio']:checked + .checkbox { background-position: -11px 0; }
     .content .page-content .select-city { width:208px; }
     .products .col { width:100%; float: none; }
 }
-@media screen and (max-width: 740px) {
+@media screen and (max-device-width: 740px), screen and (max-width: 740px) {
     .container { width:322px; }
     .ads.toRight { float: none; padding: 0 15px; }
     .footer { padding: 15px 0 0 0; }
@@ -1120,8 +1120,8 @@ input[type='radio']:checked + .checkbox { background-position: -11px 0; }
     .helper .info-box a { left:70px; top:245px; }
     .helper .info-box .text { margin: 15px 0 0 20px; }
     .helper .info ul { margin: 15px 0 0 55px; width: 180px; }
-    .sub-nav { width: 335px; }
-    .sub-nav li { border: none !important; }
+    .sub-nav { width: 270px; }
+    .sub-nav li { border: none !important; width: 270px; }
     .tabs { width:703px; }
     .tabs li a { padding: 0 20px; }
     .tabs .current { padding: 0 35px; }
