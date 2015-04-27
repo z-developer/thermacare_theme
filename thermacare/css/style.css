@@ -989,87 +989,7 @@ input[type='radio']:checked + .checkbox { background-position: -11px 0; }
     margin-top: 5px;
 }
 .padd { padding-left: 70px !important; }
-@media screen and (max-width: 979px) {
-    .container { width:735px; }
-    .main-nav { width:703px; }
-    .main-nav li { position:relative; }
-    .main-nav li a.main-nav-a  { padding: 0 8px; font-size: 12px; }
-    .main-nav li a.sub { padding-right: 20px; background: url("../images/main-nav-arrow_sm.png") center right no-repeat; }
-    .main-nav li a.sub:hover { background: url("../images/main-nav-arrow_sm_red.png") center right no-repeat; }
-    .warningdiv img { width:700px; height:132px; }
-    .ads .col-full { height:115px }
-    .ads .col-full .info { width:330px; }
-    .ads .col-full .title { font-size: 20px;}
-    .ads .col-full .text { font-size: 13px; line-height: 18px; }
-    .header .logo { width:200px; height:38px;  margin-top: 10px; }
-    .header .slogan { width:250px;  height:16px; margin: 21px 0 0 20px; }
-    .helper .step-pic { top: 175px; left: 20px; }
-    .helper { width: 703px; }
-    .helper .info-box { width:305px; }
-    .helper .steps { display: table; }
-    .helper .steps li { padding: 0 5px 0 50px; display: table-cell; float: none; font-size: 20px; text-align: left; width: auto; }
-    .sub-nav { width: 335px; }
-    .sub-nav li { border: none !important; }
-    .content .page-content { width:365px; padding-right: 15px;  }
-    .tabs { width:703px; }
-    .tabs li a { padding: 0 20px; }
-    .tabs .current { padding: 0 35px; }
-    .tabs li { font-size: 12px; }
-    .scr-cnt { width: 685px; }
-    .white-shape { width: 691px; }
-    .slider .text { width: 380px; }
-    .ads .col { width:699px; float:none; margin: 0 0 23px 0; }
-    .ads.toRight .col { width:286px;  }
-    .ads .col:nth-child(2) { margin: 0 0 15px 0; }
-    .ads span { width: 510px; top: 55px; }
-    .ads.toRight span { width: 128px; top: 36px; }
-    .content .page-content .col, .content .page-content .stores .col{ float:none; width:100%; }
-    .content .page-content .test { margin: 40px 0 0 15px; }
-    .content .page-content .select-city { width:208px; }
-    .products .col { width:100%; float: none; }
-}
-@media screen and (max-width: 740px) {
-    .container { width:322px; }
-    .ads.toRight { float: none; padding: 0 15px; }
-    .footer .col { display: block; margin-bottom: 15px; width: 290px; }
-    .ads.toRight .col { width:286px;  }
-    .ads .col { width:699px; float:none; margin: 0 0 23px 0; }
-    .ads .col:nth-child(2) { margin: 0 0 15px 0; }
-    .warningdiv img { width:287px; height:54px; }
-    .ads .col-full { height:115px }
-    .ads .col-full .info { width:330px; }
-    .ads .col-full .title { font-size: 20px;}
-    .ads .col-full .text { font-size: 13px; line-height: 18px; }
-    .header .slogan { display: none; }
-    .header .search { display: none; }
-    .content .page-content { width:260px; padding-right: 15px;  }
-    .content .page-content .select-city { width: 260px; margin: 15px 0; }
-    .helper { width: 291px; }
-    .products .col { width:100%; float: none; padding: 35px 15px; }
-    .products .col img { width:245px; height: auto; }
-    .slider { padding: 70px 15px 50px 15px }
-    .slider .image { float:none; text-align: center; width: 100%; }
-    .slider .text { width: 100%; float: none; margin-top: 25px; }
-    .slider h1 { text-align: center; }
 
-    .header .logo { width:200px; height:38px;  margin-top: 10px; }
-    .helper .step-pic { top: 175px; left: 20px; }
-    .helper .info-box { width:305px; }
-    .helper .steps { display: table; }
-    .helper .steps li { padding: 0 5px 0 50px; display: table-cell; float: none; font-size: 20px; text-align: left; width: auto; }
-    .sub-nav { width: 335px; }
-    .sub-nav li { border: none !important; }
-    .tabs { width:703px; }
-    .tabs li a { padding: 0 20px; }
-    .tabs .current { padding: 0 35px; }
-    .tabs li { font-size: 12px; }
-    .scr-cnt { width: 685px; }
-    .white-shape { width: 691px; }
-    .ads span { width: 510px; top: 55px; }
-    .ads.toRight span { width: 128px; top: 36px; }
-    .content .page-content .col, .content .page-content .stores .col{ float:none; width:100%; }
-    .content .page-content .test { margin: 40px 0 0 15px; }
-}
 #map-canvas { width:100%; height: 310px; }
 .page-content ul, .scr-cnt ul { margin-left: 15px; }
 .page-content ul li, .scr-cnt ul li {
@@ -1124,3 +1044,85 @@ input[type='radio']:checked + .checkbox { background-position: -11px 0; }
 ․stores.store-main { display: block !important; }
 .snoska { font-size: 10px; vertical-align: top; }
 .snoska-box { font-style: italic; }
+
+@media screen and (max-width: 979px) {
+    .container { width:735px; }
+    .main-nav { width:703px; }
+    .main-nav li { position:relative; }
+    .main-nav li a.main-nav-a  { padding: 0 7px; font-size: 12px; }
+    .main-nav li a.sub { padding-right: 20px; background: url("../images/main-nav-arrow_sm.png") center right no-repeat; }
+    .main-nav li a.sub:hover { background: url("../images/main-nav-arrow_sm_red.png") center right no-repeat; }
+    .warningdiv img { width:700px; height:132px; }
+    .ads .col-full { height:115px }
+    .ads .col-full .info { width:330px; }
+    .ads .col-full .title { font-size: 20px;}
+    .ads .col-full .text { font-size: 13px; line-height: 18px; }
+    .header .logo { width:200px; height:38px;  margin-top: 10px; }
+    .header .slogan { width:250px;  height:16px; margin: 21px 0 0 20px; }
+    .helper .step-pic { top: 175px; left: 20px; }
+    .helper { width: 703px; }
+    .helper .info-box { width:305px;   background: rgba(255, 255, 255, 0.5); padding: 15px 0 0 15px; }
+    .helper .steps { display: table; }
+    .helper .steps li { padding: 0 5px 0 50px; display: table-cell; float: none; font-size: 20px; text-align: left; width: auto; }
+    .sub-nav { width: 335px; }
+    .sub-nav li { border: none !important; }
+    .content .page-content { width:365px; padding-right: 15px;  }
+    .tabs { width:703px; }
+    .tabs li a { padding: 0 20px; }
+    .tabs .current { padding: 0 35px; }
+    .tabs li { font-size: 12px; }
+    .scr-cnt { width: 685px; }
+    .white-shape { width: 691px; }
+    .slider .text { width: 380px; }
+    .ads .col { width:699px; margin: 0 0 23px 0; }
+    .ads.toRight .col { width:286px;  }
+    .ads .col:nth-child(2) { margin: 0 0 15px 0; }
+    .ads span { width: 510px; top: 55px; }
+    .ads.toRight span { width: 128px; top: 36px; }
+    .content .page-content .col, .content .page-content .stores .col{ float:none; width:100%; }
+    .content .page-content .test { margin: 40px 0 0 15px; }
+    .content .page-content .select-city { width:208px; }
+    .products .col { width:100%; float: none; }
+}
+@media screen and (max-width: 740px) {
+    .container { width:322px; }
+    .ads.toRight { float: none; padding: 0 15px; }
+    .footer .col { display: block; margin-bottom: 15px; width: 290px; }
+    .ads.toRight .col { width:286px;  }
+    .ads .col { width:699px; float:none; margin: 0 0 23px 0; }
+    .ads .col:nth-child(2) { margin: 0 0 15px 0; }
+    .warningdiv img { width:287px; height:54px; }
+    .ads .col-full { height:115px }
+    .ads .col-full .info { width:330px; }
+    .ads .col-full .title { font-size: 20px;}
+    .ads .col-full .text { font-size: 13px; line-height: 18px; }
+    .header .slogan { display: none; }
+    .header .search { display: none; }
+    .content .page-content { width:260px; padding-right: 15px;  }
+    .content .page-content .select-city { width: 260px; margin: 15px 0; }
+    .helper { width: 291px; }
+    .products .col { width:100%; float: none; padding: 35px 15px; }
+    .products .col img { width:245px; height: auto; }
+    .slider { padding: 70px 15px 50px 15px }
+    .slider .image { float:none; text-align: center; width: 100%; }
+    .slider .text { width: 100%; float: none; margin-top: 25px; }
+    .slider h1 { text-align: center; }
+
+    .header .logo { width:200px; height:38px;  margin-top: 10px; }
+    .helper .step-pic { top: 175px; left: 20px; }
+    .helper .info-box { width:305px; }
+    .helper .steps { display: table; }
+    .helper .steps li { padding: 0 5px 0 50px; display: table-cell; float: none; font-size: 20px; text-align: left; width: auto; }
+    .sub-nav { width: 335px; }
+    .sub-nav li { border: none !important; }
+    .tabs { width:703px; }
+    .tabs li a { padding: 0 20px; }
+    .tabs .current { padding: 0 35px; }
+    .tabs li { font-size: 12px; }
+    .scr-cnt { width: 685px; }
+    .white-shape { width: 691px; }
+    .ads span { width: 510px; top: 55px; }
+    .ads.toRight span { width: 128px; top: 36px; }
+    .content .page-content .col, .content .page-content .stores .col{ float:none; width:100%; }
+    .content .page-content .test { margin: 40px 0 0 15px; }
+}
