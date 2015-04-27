@@ -1100,8 +1100,10 @@ input[type='radio']:checked + .checkbox { background-position: -11px 0; }
     .ads .col-full .info { width: 265px; top: 157px; }
     .ads .col-full .title { font-size: 20px;}
     .ads .col-full .text { font-size: 13px; line-height: 18px; }
-    .header .slogan { display: none; }
-    .header .search { display: none; }
+    .header { height: 130px; }
+    .header .slogan { left: 0; top: 60px; width: 290px; height: 18px; }
+    .header .search { width:31px; }
+    .header .search input { width: 31px; padding: 0; }
     .content .page-content { width:260px; padding-right: 15px;  }
     .content .page-content .select-city { width: 260px; margin: 15px 0; }
     .products .col { width:100%; float: none; padding: 35px 15px; }
@@ -1163,4 +1165,6 @@ input[type='radio']:checked + .checkbox { background-position: -11px 0; }
     }
     .short-links li .name { width: 80px; text-align: center; }
     .short-links li .active a { float:none; float: none; margin: 5px 0 0 0; }
+
+    .main-nav { width:290px; }
 }
