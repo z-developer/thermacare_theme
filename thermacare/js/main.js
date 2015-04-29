@@ -43,6 +43,12 @@ $(document).ready(function() {
             clicked = $(this).attr('href');
         }
     });
+    $('#search_button').on('touchstart', function(e){
+        e.preventDefault();
+        $('.header .search').width(200);
+        $('.header .search input').width(200);
+        $('.header .search input').css('padding', '0 32px 0 15px');
+    });
     $('.mobile-nav-btn').on('touchstart', function(e){
         if(mopen == 0) {
             mopen = 1;
