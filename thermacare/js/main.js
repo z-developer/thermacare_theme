@@ -43,7 +43,7 @@ $(document).ready(function() {
             clicked = $(this).attr('href');
         }
     });
-    $('.mobile-nav-btn').on('click touchstart', function(e){
+    $('.mobile-nav-btn').on('touchstart', function(e){
         if(mopen == 0) {
             mopen = 1;
             $('.mobile-nav-btn').parent().find('.main-nav').show();
