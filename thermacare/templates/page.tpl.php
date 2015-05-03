@@ -245,7 +245,7 @@
             }
             else
             {
-                $bannerID = 9;
+                $bannerID = 71;
             }
             
             $block = module_invoke('block','block_view',$bannerID);
