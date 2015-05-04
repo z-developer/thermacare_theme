@@ -391,11 +391,10 @@ body {
     background: #db031f;
     line-height: 34px;
     text-align: center;
+    font-style: normal;
     color: #ffffff;
     text-transform: uppercase;
     text-decoration: none;
-    right: 0px;
-    top: 215px;
     position: absolute;
     border-radius: 10px;
     -webkit-border-radius: 10px;
