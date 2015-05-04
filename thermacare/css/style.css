@@ -383,13 +383,25 @@ body {
     line-height: 25px;
 }
 .ads .col-full .more-btn {
-    color:#db031f;
-    font-size:12px;
-    text-decoration: none;
-    position: absolute;
     right:15px;
     bottom:10px;
-    font-style: normal;
+    width: 153px;
+    height: 34px;
+    border: solid 1px #b21624;
+    background: #db031f;
+    line-height: 34px;
+    text-align: center;
+    color: #ffffff;
+    text-transform: uppercase;
+    text-decoration: none;
+    right: 0px;
+    top: 215px;
+    position: absolute;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
 }
 .ads .col-full a:hover {
     text-decoration: underline;
@@ -790,7 +802,8 @@ body {
     border:solid 3px #d31431;
     float: left;
     margin: 0 25px 10px 0;
-
+    width:178px;
+    height: 111px;
     border-radius:10px;
     -webkit-border-radius:10px;
     -moz-border-radius:10px;
@@ -943,6 +956,7 @@ input[type='radio']:checked + .checkbox { background-position: -11px 0; }
     box-sizing: border-box;
     padding: 35px 45px 10px 45px;
     float: left;
+    position: relative;;
 }
 .products .main-image {
     text-align: center;
@@ -966,7 +980,9 @@ input[type='radio']:checked + .checkbox { background-position: -11px 0; }
     background: #db031f;
     color:#ffffff;
     display: block;
-    float:right;
+    right:45px;
+    bottom:0;
+    position: absolute;
     text-decoration: none;
     margin: 20px 0 0 0;
 
@@ -1043,7 +1059,7 @@ input[type='radio']:checked + .checkbox { background-position: -11px 0; }
 .t-red.active { color:#ff1d1d; }
 .result { display: none; }
 .stores { display: none; }
-.stores.store-12 { display: block; }
+.stores.store-14 { display: block; }
 ․stores.store-main { display: block !important; }
 .snoska { font-size: 10px; vertical-align: top; }
 .snoska-box { font-style: italic; }
@@ -1098,7 +1114,7 @@ input[type='radio']:checked + .checkbox { background-position: -11px 0; }
     .ads .col:nth-child(2) { margin: 0 0 15px 0; }
 
     .warningdiv img { width:287px; height:54px; }
-    .ads .col-full { height:290px; overflow: hidden; }
+    .ads .col-full { height:310px; overflow: hidden; }
     .ads .col-full img { height: auto; }
     .ads .col-full .info { width: 265px; top: 157px; }
     .ads .col-full .title { font-size: 20px;}
