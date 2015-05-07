@@ -68,8 +68,16 @@ $(document).ready(function() {
         $('input[type="radio"]', this).each(function(i){
             if($(this).is(':checked')) temp ++;
         });
-        if(temp == 9) {
+        $('input[type="checkbox"]', this).each(function(i){
+            if($(this).is(':checked')) temp ++;
+        });
+        if(temp >= 9) {
             $('input[type="radio"]', this).each(function(){
+                if($(this).is(':checked')) {
+                    $(this).closest('label').addClass('active');
+                }
+            });
+            $('input[type="checkbox"]', this).each(function(){
                 if($(this).is(':checked')) {
                     $(this).closest('label').addClass('active');
                 }
@@ -101,7 +109,7 @@ $(document).ready(function() {
 }).on('change', '.select-city select', function() {
     var num = $(this).val();
     $('.stores').fadeOut(function() {
-        $('.stores.store-' + num).fadeIn();
+        $('.stores.store-' + num).show();
     });
 });
 

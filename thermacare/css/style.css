@@ -394,6 +394,13 @@ body {
     font-style: normal;
     color: #ffffff;
     text-transform: uppercase;
+    text-decoration: none;
+    position: absolute;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
 }
 .ads .col-full a:hover {
     text-decoration: underline;
@@ -754,6 +761,12 @@ body {
 .content .faq li {
     list-style: url("../images/faq_bullet.png");
     padding: 0;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
 }
 .content .faq li h1 {
     font-size: 14px;
@@ -788,6 +801,7 @@ body {
 .content .faq .answer .arrow {
     position: absolute;
     top:-14px;
+    top:-13px\9;
 }
 .content .page-content .text-image {
     overflow: hidden;
@@ -875,6 +889,13 @@ input[type='radio'] {
 input[type='radio'] + .checkbox { outline: none; box-sizing: border-box; width:11px; height: 11px; display: inline-block; margin: -3px 8px 0 0; vertical-align: middle; background: url("../images/checkbox.png") no-repeat; }
 input[type='radio']:checked + .checkbox { background-position: -11px 0; }
 
+input[type='checkbox'] {
+    opacity: 0;
+    position: absolute;
+}
+input[type='checkbox'] + .checkbox { outline: none; box-sizing: border-box; width:11px; height: 11px; display: inline-block; margin: -3px 8px 0 0; vertical-align: middle; background: url("../images/checkbox.png") no-repeat; }
+input[type='checkbox']:checked + .checkbox { background-position: -11px 0; }
+
 .content .page-content .stores, .content .page-content .store-main{
     color:#242424;
     font-weight: bold;
@@ -919,7 +940,10 @@ input[type='radio']:checked + .checkbox { background-position: -11px 0; }
     -o-border-radius:10px;
     background: url("../images/combo.png") no-repeat right center #ffffff;
 }
-
+.select-city select:focus::-ms-value {
+    background: none;
+    color:#000000;
+}
 .select-city select {
     width:438px;
     padding: 0 0 7px 15px;;

@@ -6,11 +6,7 @@
 ?>
 
 <?php $ver='?a72'; ?>
-
 <?php print $head; ?>
-<?php
-    render($page['content']['metatags']); 
-?>
 
 <meta name="viewport" content="width=360, initial-scale=1.0, user-scalable=yes">
 <link href="<?=$themepath?>css/style.css<?=$ver?>" rel="stylesheet" type="text/css"/>
