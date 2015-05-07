@@ -5,7 +5,7 @@
     $themepath = '/'.$directory.'/';
 ?>
 
-<?php $ver='?a75'; ?>
+<?php $ver='?a72'; ?>
 
 <?php print $head; ?>
 <?php
@@ -16,8 +16,7 @@
 <link href="<?=$themepath?>css/style.css<?=$ver?>" rel="stylesheet" type="text/css"/>
 <link href="<?=$themepath?>css/jquery.mCustomScrollbar.css<?=$ver?>" rel="stylesheet" type="text/css"/>
 
-
- <!--A75-->
+ <!--A72-->
 <script type="text/javascript" src="<?=$themepath?>js/jquery-1.11.2.min.js<?=$ver?>"></script>
 <script type="text/javascript" src="<?=$themepath?>js/jquery.mCustomScrollbar.concat.min.js<?=$ver?>"></script>
 <script src="<?=$themepath?>js/jquery.tools.min.js<?=$ver?>"></script>
